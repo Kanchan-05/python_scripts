@@ -14,8 +14,8 @@ Authors: Kanchan Soni, ChatGPT
 * To use this script, provide the DOI of the research article for which you want to generate a BibTeX entry. Run the script, and it will generate a BibTeX entry in the format accepted by Physical Review D.
 """
 
-!pip install pybtex==0.22.2
-!pip install requests==2.28.0
+#!pip install pybtex==0.22.2
+#!pip install requests==2.28.0
 
 from pybtex.database import BibliographyData, Entry
 from pybtex.database.input import bibtex
